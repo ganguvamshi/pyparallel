@@ -8,3 +8,6 @@ Presentation repo for parallel computing in python. This is made using jupyter +
 2. Adding github token to Travis
 
 For presentation: <http://ganguvamshi.github.io/pyparallel>
+
+
+_Author_ : Vamshidhar Gangu
