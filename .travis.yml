@@ -17,8 +17,8 @@ after_success: |
     if [ -n "$GITHUB_API_KEY" ]; then
     git checkout --orphan gh-pages
     git rm -rf --cached .
-    mv parallelpython.ipynb index.html
+    mv parallelpython.slides.html index.html
     git add -f --ignore-errors index.html img reveal.js
-    git -c user.name='ganguvamshi' -c user.email='ganguvamshi@gmail.com' commit -m init
+    git -c user.name='travis' -c user.email='travis' commit -m init
     git push -f -q https://$GITHUB_USER:$GITHUB_API_KEY@github.com/$TRAVIS_REPO_SLUG gh-pages
     fi
