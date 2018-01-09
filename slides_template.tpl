@@ -49,7 +49,7 @@ Reveal.initialize({
     //backgroundTransition: 'default', // default/linear/none
 
     // Theme
-    theme: 'black' // available themes are in /css/theme
+    theme: 'league' // available themes are in /css/theme
 
 });
 
