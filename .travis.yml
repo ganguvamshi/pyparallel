@@ -11,7 +11,7 @@ install:
     - mv reveal.js-master reveal.js
 
 script:
-    - jupyter nbconvert parallelpython.ipynb --to slides --reveal-prefix=reveal.js
+    - jupyter nbconvert parallelpython.ipynb --to slides --reveal-prefix=reveal.js --config slides_config.py
 
 after_success: |
     if [ -n "$GITHUB_API_KEY" ]; then
